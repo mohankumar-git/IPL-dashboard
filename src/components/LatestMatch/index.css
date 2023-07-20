@@ -1,0 +1,146 @@
+.latest-match-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.latest-match-heading {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  font-weight: 400;
+}
+
+.latest-match {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 20px 0px;
+}
+
+.competing-team-details-container {
+  display: flex;
+  align-items: center;
+  padding: 4px 16px;
+}
+
+.competing-team-details {
+  margin-right: 10px;
+}
+
+.competing-team-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+.competing-team-logo {
+  width: 100px;
+  margin: auto;
+}
+
+.competing-team-logo-lg {
+  display: none;
+  width: 255px;
+  margin: auto;
+}
+
+.latest-match-date {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+.latest-match-venue {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+.latest-match-result {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+.horizontal-line {
+  background-color: #475569;
+  width: 100%;
+  margin: 4px;
+}
+
+.innings-details {
+  padding: 4px 16px;
+}
+
+.innings-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+}
+
+.innings-team {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .latest-match-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+  }
+  .latest-match-heading {
+    font-size: 17px;
+  }
+  .latest-match {
+    flex-direction: row;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 29px;
+  }
+  .horizontal-line {
+    display: none;
+  }
+  .competing-team-logo {
+    display: none;
+  }
+
+  .competing-team-logo-lg {
+    width: 255px;
+    display: flex;
+  }
+
+  .competing-team-name {
+    font-size: 28px;
+  }
+  .latest-match-date {
+    font-size: 26px;
+  }
+  .latest-match-venue {
+    font-size: 15px;
+  }
+  .latest-match-result {
+    font-size: 15px;
+  }
+  .innings-heading {
+    font-size: 19px;
+    text-align: end;
+  }
+  .innings-team {
+    font-size: 13px;
+    text-align: end;
+  }
+}

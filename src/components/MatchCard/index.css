@@ -1,0 +1,73 @@
+.match-card-item {
+  background-color: #0f172a;
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 12px;
+  width: 160px;
+  height: 245px;
+}
+
+.match-card-img {
+  width: 44px;
+  flex-grow: 1;
+}
+
+.match-card-team-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.match-card-result {
+  color: #ffffff;
+  font-size: 11px;
+  font-family: 'Bree Serif';
+  text-align: center;
+  flex-grow: 1;
+}
+
+.match-status {
+  font-size: 14px;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+
+.won {
+  color: #18ed66;
+}
+
+.lost {
+  color: #e31a1a;
+}
+
+@media (min-width: 768px) {
+  .match-card-item {
+    width: 164px;
+    height: 292px;
+    margin-bottom: 20px;
+    margin-right: 12px;
+  }
+  .match-card-img {
+    width: 59px;
+    margin-top: 12px;
+  }
+  .match-card-team-name {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .match-card-result {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  .match-status {
+    font-size: 16px;
+  }
+}

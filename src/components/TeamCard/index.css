@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.team-card-item {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #b49a9a33;
+  padding: 12px 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.team-card-img {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.team-card-name {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .team-card-item {
+    width: 282px;
+    height: 106px;
+    max-width: 410px;
+    max-height: 136px;
+    padding: 14px 12px;
+    margin: 12px;
+  }
+  .team-card-img {
+    width: 52px;
+    margin-right: 6px;
+  }
+  .team-card-name {
+    color: #ffffff;
+    font-size: 21px;
+    font-family: 'Bree Serif';
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-card-item {
+    width: 340px;
+    height: 126px;
+  }
+  .team-card-img {
+    width: 62px;
+    margin-right: 9px;
+  }
+  .team-card-name {
+    font-size: 24px;
+  }
+}
